@@ -1,0 +1,101 @@
+/*halaman 1 */
+body {
+  background-image: url(css/bg.jpg);
+  background-size: 1300px;
+}
+.gabungan {
+  display: flex;
+  margin: 90px 210px 50px;
+  padding-right: 50px;
+  background-image: url(css/medic.jpg);
+  background-size: 850px;
+  border-radius: 9%;
+}
+.sampul {
+  width: 650px;
+  height: 350px;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(95, 121, 190);
+}
+.judul {
+  padding-top: 30px;
+}
+img {
+  width: 300px;
+  height: 350px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#login {
+  color: rgb(95, 121, 190);
+}
+
+/*halaman 2 */
+.cover {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-left: 70px;
+  padding-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(209, 231, 238);
+  color: rgb(95, 121, 190);
+}
+.judul2 {
+  text-align: center;
+  color: rgb(95, 121, 190);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.isi {
+  display: flex;
+  background-image: url(css/bg2.jpg);
+  background-color: white;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+.menu {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+/*halaman 3 */
+.utama {
+  background-color: rgb(209, 231, 238);
+  margin: 22px auto;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  border-radius: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.kotak {
+  display: flex;
+  margin: auto;
+  background-color: rgb(234, 243, 243);
+  width: 1000px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.struk {
+  background-color:rgb(209, 231, 238); 
+  margin: auto;
+  padding: 10px;
+  border-radius: 10%; 
+  color: rgb(95, 121, 190);
+}
+.tiga {
+  width: 600px;
+  height: 350px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}

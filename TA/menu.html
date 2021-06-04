@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas Akhir Praktikum DKP 2021</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="pemanis.css">
+    <div class="cover">
+    <form action="hasil.php" method="get">  
+        <div class="judul2"><h1>Apotek Online</h1></div>
+        <hr>
+        <div class="isi">
+        <img src="css/obat.svg">
+        <div class="menu">
+        <h3>Menu Obat yang Tersedia : </h3><hr>
+          <input name="obat[]" type="checkbox" value='Antiradang' id="obat1">1. Antiradang (Ibuprofen 400 mg) - Rp 33.000,00<br/>
+          Jumlah : <input type="number" id="stok1" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat1').onchange = function() {
+          document.getElementById('stok1').disabled = !this.checked;
+          };
+          </script>  
+          <input name="obat[]" type="checkbox" value='Saluran Cerna'id="obat2">2. Saluran Cerna (Dulcolax 5 mg 10 tablet) - Rp. 16.000,00<br/>
+          Jumlah : <input type="number" id="stok2" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat2').onchange = function() {
+          document.getElementById('stok2').disabled = !this.checked;
+          };
+          </script>
+          <input name="obat[]" type="checkbox" value='Mulut dan Tenggorokkan'id="obat3">3. Mulut dan Tenggorokkan (Minosep 150 ml) - Rp. 40.000,00<br/>
+          Jumlah : <input type="number" id="stok3" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat3').onchange = function() {
+          document.getElementById('stok3').disabled = !this.checked;
+          };
+          </script> 
+          <input name="obat[]" type="checkbox" value='Saluran Nafas'id="obat4">4. Saluran Nafas (Miravon Bromhexin HCl 100 tablet) - Rp. 18.500,00<br/>
+          Jumlah : <input type="number" id="stok4" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat4').onchange = function() {
+          document.getElementById('stok4').disabled = !this.checked;
+          };
+          </script>
+          <input name="obat[]" type="checkbox" value='Depresan'id="obat5">5. Depresan (Alvita) - Rp. 38.000,00<br/>
+          Jumlah : <input type="number" id="stok5" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat5').onchange = function() {
+          document.getElementById('stok5').disabled = !this.checked;
+          };
+          </script>
+          <input name="obat[]" type="checkbox" value='Kulit'id="obat6">6. Kulit (Tetracycline 500mg box kapsul) - Rp. 65.000,00<br/>
+          Jumlah : <input type="number" id="stok6" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat6').onchange = function() {
+          document.getElementById('stok6').disabled = !this.checked;
+          };
+          </script>
+          <input name="obat[]" type="checkbox" value='Antiparasit'id="obat7">7. Antiparasit (Combantrin Tablet 250 mg) - Rp. 15.000,00<br/>
+          Jumlah : <input type="number" id="stok7" name="jumlah[]" disabled> <br/>
+          <script>
+          document.getElementById('obat7').onchange = function() {
+          document.getElementById('stok7').disabled = !this.checked;
+          };
+          </script>
+          </div>
+        </div>
+        <hr>
+        <tr><td>Saldo Awal : </td>
+          <td><input type="number" name="saldo"></td></tr> 
+        <tr><td><label for="status">Ada kartu BPJS?</label><td>
+          <Select name="status">
+          <option value='Ya'>Ya</option>
+          <option value='Tidak'>Tidak</option>
+          </select><br><br>
+        </td></tr>
+          <input type="submit" name="Pesan">
+          <input type="reset" value="Cancel"></tr>
+    </form>
+  </div> 
+  </body>
+</html>
